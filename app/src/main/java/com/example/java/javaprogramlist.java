@@ -11,19 +11,19 @@ import android.widget.Toast;
 
 public class javaprogramlist extends AppCompatActivity {
 
-    ListView listView;
-    String[] listitem;
+    ListView listViewprogram;
+    String[] listitemprogram;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_javaprogramlist);
 
-        listView = (ListView) findViewById(R.id.javatheorylistview);
-        listitem = getResources().getStringArray(R.array.java_theory_list);
+        listViewprogram = (ListView) findViewById(R.id.javaprogramlistview);
+        listitemprogram = getResources().getStringArray(R.array.java_program_list);
 
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,android.R.id.text1,listitem);
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,android.R.id.text1,listitemprogram);
+        listViewprogram.setAdapter(adapter);
+        listViewprogram.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 String value=adapter.getItem(position);
