@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_centerVertical="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/javaprogramming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java Programming"
+            android:textSize="45dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="viewStart"
+            />
+
+        <TextView
+            android:id="@+id/readytolearn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ready to Learn"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textAlignment="viewStart"/>
+        <Button
+            android:id="@+id/theory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theory"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/theory"/>
+        <Button
+            android:id="@+id/programs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programs"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/program"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/compiler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compiler"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/compiler"/>
+        <Button
+            android:id="@+id/apptitudepracticals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apptitude Practicals"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ap"/>
+    </LinearLayout>
+</LinearLayout>
