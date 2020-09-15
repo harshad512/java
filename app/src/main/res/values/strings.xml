@@ -1,26 +1,31 @@
 <resources>
     <string name="app_name">Java</string>
     <string-array name="java_theory_list">
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
+        <item>1. Introduction</item>
+        <item>2. Variables</item>
+        <item>3. Data Types</item>
+        <item>4. Operators</item>
+        <item>5. If...Else Statement</item>
+        <item>6. Switch Statement</item>
+        <item>7. Looping</item>
+        <item>8. Class Object</item>
+        <item>9. Constructor</item>
+        <item>10. Overloading</item>
+        <item>11. Overriding</item>
+        <item>12. Inheritance</item>
+        <item>13. Keywords</item>
+        <item>14. Abstraction</item>
+        <item>15. Arrays</item>
+        <item>16. Strings</item>
+        <item>17. Vectors</item>
+        <item>18. Wrapper Class</item>
+        <item>19. Interface</item>
+        <item>20. Packages</item>
+        <item>21. Thread</item>
+        <item>22. Exception</item>
+        <item>23. Applet</item>
+        <item>24. Stream</item>
+        <item>25. File</item>
     </string-array>
 
     <string-array name="java_program_list">

@@ -6,14 +6,11 @@
     tools:context=".javatheorylist"
     android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/javatheorylistview"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/javatheorylist_recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent">
 
-    <Spinner
-        android:id="@+id/javatheorylistspinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+    </androidx.recyclerview.widget.RecyclerView>
+    
 </LinearLayout>

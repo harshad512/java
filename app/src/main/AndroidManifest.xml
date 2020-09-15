@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".javaAPlist"></activity>
+        <activity android:name=".theorycontent"></activity>
+        <activity android:name=".javaAPlist" />
         <activity android:name=".javacompilerlist" />
         <activity android:name=".javaprogramlist" />
         <activity android:name=".javatheorylist" />
